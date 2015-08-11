@@ -28,10 +28,7 @@ if(isset($_GET['photo'])){
   <title>CreamSilk Hair Dare</title>
   <meta name="description" content="CreamSilk Hair Dare">
   <meta property="og:title" content="Facebook Open Graph META Tags"/>
-<meta property="og:image" content="http://davidwalsh.name/wp-content/themes/klass/img/facebooklogo.png"/>
-<meta property="og:site_name" content="David Walsh Blog"/>
-<meta property="og:description" content="Facebook's Open Graph protocol allows for web developers to turn their websites into Facebook "graph" objects, allowing a certain level of customization over how information is carried over from a non-Facebook website to Facebook when a page is 'recommended', 'liked', or just generally shared."/>
-  
+ 
   <meta name="author" content="chris.cortez">
   <link rel="stylesheet" href="assets/css/featherlight.css" />
   <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css" />

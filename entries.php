@@ -104,9 +104,8 @@ $results = $toa->get('search/tweets', $query);
         <div class="main">
         
             <div class="" style="padding-left: 20px;"><img src="assets/images/03_entries_header.png"></div> 
-            <p class="center" style="margin: 5px 0 10px;">Take the #CreamSilkHairDare Challenge in your school, share your own
-            <br>#CreamSilkHairDare photo on Facebook. Twitter and/or Instagram and get a chance 
-            <br>to be featured on Candy magazine! Read on for Full Mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">Here</a></p>
+            <p class="center" style="margin: 5px 0 10px;">If you have taken the #CreamSilkHairDare Challenge in your school, share your own  #CreamSilkHairDare photo on Facebook, Twitter and get
+a chance to be featured on Candy magazine! Read on for Full Mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">Here</a></p>
             <p class="center" style="margin: 5px 0 20px"> <a class="button" href="gallery.php" style="padding-left: 40px; padding-right: 40px;" >Find your photo</a></p>
             
             

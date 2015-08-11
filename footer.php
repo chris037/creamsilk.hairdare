@@ -11,13 +11,18 @@
 </div>
   <iframe scrolling="no" class="lightbox" src="photo.php?album=Album%201&photo=1.jpg" width="650" height="700" id="fl1" style="border:none;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
    
-    <div class="lightbox" id="fl_mechvideo">
+
+    <iframe scrolling="yes" class="lightbox" src="mechanics_photo.php" width="650" height="800" id="fl_mechphoto" style="border:none;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  <iframe scrolling="yes" class="lightbox" src="mechanics_video.php" width="650" height="800" id="fl_mechvideo" style="border:none;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+ 
+   
+    <!-- <div class="lightbox" id="fl_mechvideo">
       <?php require("mechanics_video.php"); ?>
     </div>
-
-     <div class="lightbox" id="fl_mechphoto">
+ -->
+    <!--  <div class="lightbox" id="fl_mechphoto">
       <?php require("mechanics_photo.php"); ?>
-     </div>
+     </div> -->
 
     <iframe class="lightbox" src="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fcreamsilkhd%3A8890%2FHTML%2Fmain%2Fgallery.php%3Fid%3D1&text=Tweet%20Button%20%7C%20Twitter%20Developers&tw_p=tweetbutton&url=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ftweet-button" width="500" height="281" id="fl_sharevideo" style="border:none;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
