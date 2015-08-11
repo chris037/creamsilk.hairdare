@@ -1,4 +1,5 @@
-<?php require("functions.php"); ?>
+<?php require("inc/config.php"); ?>
+<?php require("inc/functions.php"); ?>
 <?php
 
 

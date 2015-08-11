@@ -15,19 +15,23 @@
             </div>
             <div class="center row">
                 <h2 class="center"> DARE TO TAKE THE cream silk haIR Dare challenge</h2>
-                <p>Get a chance to try the Cream Silk Hair Dare for free with Nadine Lustre by rallying <br/>your friends and schoolmates to share the video below. Share it on Twitter with the caption <br/>“I Want Nadine to bring the #CreamSilkHairDare” along with a hashtag of your school’s name. </p>
+                <p>Get a chance to try the Cream Silk Hair Dare for free with Nadine Lustre.
+                Share the video below on Twitter with the caption “I Want Nadine to bring
+                the #CreamSilkHairDare along with a hashtag of your school’s name.<br>
+                Full Mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechvideo">Here</a></p>
+                <!--<p>Get a chance to try the Cream Silk Hair Dare for free with Nadine Lustre by rallying <br/>your friends and schoolmates to share the video below. Share it on Twitter with the caption <br/>“I Want Nadine to bring the #CreamSilkHairDare” along with a hashtag of your school’s name. </p>-->
                 <!-- <button data-attr="fl_sharevideo">Share Video</button> -->
-                <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine to bring the %23CreamSilkHairDare to &quot%23Insert Name of School&quot https%3A%2F%2Fyoutu.be/Wb8ePxP-0vk">Share Video</a>
+                <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine Lustre to bring %23CreamSilkHairDare to %23<Insert Your School Name> https://youtu.be/Wb8ePxP-0vk">Share Video</a>
 
 
             </div>
             <div class="row">
-                <div class="col three_fifth">
+                <div class="col full">
                     <div class="video_wrap">
-                         <iframe width="486" height="356" src="https://www.youtube.com/embed/Wb8ePxP-0vk" frameborder="0" allowfullscreen></iframe>
+                         <iframe width="830" height="467" src="<?php echo YT_VIDEO ?>" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col center two_fifth last">
+                <!-- <div class="col center two_fifth last">
                      <article class="block_gallery holderjs">
                     <h3 class="center">GALLERY</span></h3>
                     <p>See those who have taken the Cream Silk Hair Dare Challenge</p>
@@ -40,7 +44,7 @@
                       <p>See how what you and your schoolmate need to do to bring the Nadine Lustre and the #CreamSilkHairDare booth to your school</p> <div class="clearfix"></div>
                     <a class="button" href="#" data-featherlight="#fl_mechvideo">Find Out More</a>
                     </article>
-                </div>
+                </div> -->
 
                 <div class="clearfix"></div>
 
