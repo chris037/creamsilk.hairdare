@@ -97,7 +97,7 @@
         // Fetch tweets
         $.getJSON(settings.apiPath, { username: settings.username, list: settings.list, hashtag: settings.hashtag, count: settings.count, exclude_replies: settings.hideReplies }, function (twt) {
             that.find('span').fadeOut('fast', function () {
-                that.html('<ul class="list twitter_wrap"></ul>');
+                that.html('<ul class="list"></ul>');
 
                
                 for (var i = 0; i < settings.count; i++) {

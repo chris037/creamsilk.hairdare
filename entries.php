@@ -7,11 +7,13 @@ $file = 'tweets.txt';
 $filex = file($file);
 $count = count($filex);
 $nn = array();
+$nm = array();
 if($count > 0) {
     foreach($filex as $row) {
-        $dta= explode(",", $row);
+        $dta = explode(",", $row);
        
         $nn[] = $dta[0];
+        $nm[] = $dta;
     }
 }
 
@@ -31,7 +33,7 @@ $content = $toa->get("account/verify_credentials");
 
 $query = array(
   "q" => "#CreamSilkHairDare",
-  "count" => "2",
+  "count" => "10",
   "result_type" => "recent"
 );
  
@@ -81,26 +83,26 @@ $results = $toa->get('search/tweets', $query);
 <div data-pageid="entries" class="wrapper">
  
     <div class="content">
-       <div style="position:absolute; top: 60px;">
+       <!-- <div style="position:absolute; top: 60px;">
 
            <div style="position:relative; top:-20px; left:-180px; z-index:99999;" >
             <img src="assets/images/03_entries_book.png">
           </div>
-  </div>
+  </div> -->
           <div class="center row">
                 <button data-href="video.php" class="capsuleLeft">Bring Nadine To Your School</button>
                 <button data-href="entries.php" class="capsuleRight active" >Get Featured In Candy Magazine</button>
             </div>
            
-        <div class="col one_third packshot">
+        <!-- <div class="col one_third packshot">
          &nbsp;
-         <!--  <img src="assets/images/03_entries_book.png"> -->
+          <img src="assets/images/03_entries_book.png">
            
-        </div>
+        </div> -->
 
 
-        <div class="col two_third main">
-          
+        <div class="main">
+        
             <div class="" style="padding-left: 20px;"><img src="assets/images/03_entries_header.png"></div> 
             <p class="center" style="margin: 5px 0 10px;">Take the #CreamSilkHairDare Challenge in your school, share your own
             <br>#CreamSilkHairDare photo on Facebook. Twitter and/or Instagram and get a chance 
@@ -124,9 +126,22 @@ $results = $toa->get('search/tweets', $query);
 
   
   <div class="tweet">
-           
+     <ul class="list twitter_wrap">
+        <?php
+          $nm = array_reverse($nm);
+          foreach ($nm as $key => $value) {
 
+            $img_src =  explode("_normal", $nm[$key][2]);
+            echo "<li data-name='". $nm[$key][1] ."' style='background: url(". $img_src[0] . $img_src[1] ."); background-size: 161px 161px; background-repeat: no-repeat;''><div><p class='name scrname'><a class='namex' href='https://twitter.com/". $nm[$key][1] ."' target='_blank' title='". $nm[$key][1] ." on Twitter'>@". $nm[$key][1] ."</a></p><p>". $nm[$key][3] ."</p></div></li>";
+          }
+
+          //print_r($nm);
+        ?>
+    </ul>
   </div>
+
+ 
+         
   <div class="clearfix"></div>
 
             </div>

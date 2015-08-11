@@ -14,32 +14,32 @@ function init(){
       }
 
        if(pageid == 'entries'){
-          $('.twitter_wrap').hide();
-          $('.tweet').twittie({
-            dateFormat: '%b. %d, %Y',
-            template: '<div class="avatar">{{avatar}}</div> <div class="feed">{{tweet}}</div> <div class="date">{{date}}</div>',
-            count: '500',
-            hashtag: '#CreamSilkHairDare',
-            loadingText: 'Loading!'
-          }, function(){
-               var ch = $('.tweet ul').children();
-               console.log(ch.length);
-               console.log('loaded');
+          // $('.twitter_wrap').hide();
+          // $('.tweet').twittie({
+          //   dateFormat: '%b. %d, %Y',
+          //   template: '<div class="avatar">{{avatar}}</div> <div class="feed">{{tweet}}</div> <div class="date">{{date}}</div>',
+          //   count: '2',
+          //   hashtag: '#CreamSilkHairDare',
+          //   loadingText: 'Loading!'
+          // }, function(){
+          //      var ch = $('.tweet ul').children();
+          //      console.log(ch.length);
+          //      console.log('loaded');
 
-               // for (var i = 0; i < ch.length; i++) {
-               //   console.log('cc');
-               //    $('.twitter_wrap').append( '<li><img class="" data-src="holder.js/100px114" /></li>');
-               // }
-              setupGallery('.twitter_wrap');
-              $('.twitter_wrap').show();
+          //      // for (var i = 0; i < ch.length; i++) {
+          //      //   console.log('cc');
+          //      //    $('.twitter_wrap').append( '<li><img class="" data-src="holder.js/100px114" /></li>');
+          //      // }
+          //     setupGallery('.twitter_wrap');
+          //     $('.twitter_wrap').show();
 
-             // $('.tweet').append('<script type="text/javascript" src="assets/js/list.js"></script>');
-             // var options = {
-             //            valueNames: [ 'name']
-             //          };
+          //    // $('.tweet').append('<script type="text/javascript" src="assets/js/list.js"></script>');
+          //    // var options = {
+          //    //            valueNames: [ 'name']
+          //    //          };
 
-             //  var userList = new List('users', options);
-              });
+          //    //  var userList = new List('users', options);
+          //     });
            $( "#search" ).click(function() {
                var str = this.value.toLowerCase();
                if(str.length == 0){

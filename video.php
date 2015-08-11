@@ -9,7 +9,7 @@
 
             <div class="center row">
                 <button data-href="video.php" class="capsuleLeft active">Bring Nadine To Your School</button>
-                <button data-href="entries.php" class="capsuleRight" >Get Featured In Candy Magazine</button>
+                <button data-href="gallery.php" class="capsuleRight" >Get Featured In Candy Magazine</button>
 
 
             </div>

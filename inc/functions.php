@@ -6,7 +6,7 @@
 
 function getAlbums(){
 
-		$handle = opendir(dirname(realpath(__FILE__)) . "/" . ALBUM_DIR);
+		$handle = opendir(dirname(realpath(__FILE__)) . "/../" . ALBUM_DIR);
 		 while($file = readdir($handle)){
                  if($file !== '.' && $file !== '..' && $file !== '.DS_Store'){
                  	echo "<li data-gal='". $file . "'><p>". $file."</p></li>";
@@ -18,7 +18,7 @@ function getAlbums(){
 function getPhotos($album){
 
 	
-	$handle = opendir(dirname(realpath(__FILE__)) . "/" . ALBUM_DIR . "/" .$album);
+	$handle = opendir(dirname(realpath(__FILE__)) . "/../" . ALBUM_DIR . "/" .$album);
 		 while($file = readdir($handle)){
                  if($file !== '.' && $file !== '..' && $file !== '.DS_Store'){
                  	echo "<li data-album='" . $album . "' data-photo='" . $file . "' ><div class='imgLiquidFill imgLiquid' style='width:200px; height:240px;'><img src='". ALBUM_DIR . $album . "/". $file ."' /></div></li>";

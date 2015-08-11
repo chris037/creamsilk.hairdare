@@ -1,3 +1,4 @@
+<?php require("inc/config.php"); ?>
 <?php require("inc/functions.php"); ?>
 <?php
 
@@ -16,6 +17,22 @@ if(isset($_GET['photo'])){
 
 ?>
 
+<?php
+
+$base_dir  = __DIR__; // Absolute path to your installation, ex: /var/www/mywebsite
+$doc_root  = preg_replace("!${_SERVER['SCRIPT_NAME']}$!", '', $_SERVER['SCRIPT_FILENAME']); # ex: /var/www
+$base_url  = preg_replace("!^${doc_root}!", '', $base_dir); # ex: '' or '/mywebsite'
+$protocol  = empty($_SERVER['HTTPS']) ? 'http' : 'https';
+$port      = $_SERVER['SERVER_PORT'];
+$disp_port = ($protocol == 'http' && $port == 80 || $protocol == 'https' && $port == 443) ? '' : ":$port";
+$domain    = $_SERVER['SERVER_NAME'];
+$full_url  = "${protocol}://${domain}${disp_port}"; # Ex: 'http://example.com', 'https://example.com/mywebsite', etc.
+
+//echo $full_url;
+//echo $protocol;
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,10 +41,13 @@ if(isset($_GET['photo'])){
   <meta name="description" content="Dare To See The Cream Silk Difference">
   <meta name="author" content="chris.cortez">
 
-  <meta property="og:title" content="Facebook Open Graph META Tags"/>
-  <meta property="og:image" content=""/>
+  <meta property="og:title" content="Dare To See The Cream Silk Difference"/>
+    <?php
+       echo "<meta property='og:image'  content='". $full_url . ALBUM_DIR . '/' . $albumName . '/' . $photoName . "'>";
+  ?>
+
   <meta property="og:site_name" content=""/>
-  <meta property="og:description" content=""/>
+  <meta property="og:description" content="The %23CreamSilkHairDare challenge makes me feel %23BeyondBeautiful"/>
 
   <meta name="twitter:site" content="@site_username">
   <meta name="twitter:title" content="Dare To See The Cream Silk Difference">
@@ -37,7 +57,7 @@ if(isset($_GET['photo'])){
        echo "<meta name='twitter:image:src' content='". ALBUM_DIR . '/' . $albumName . '/' . $photoName . "'>";
   ?>
  
-  <meta name="twitter:domain" content="xpresswebsolution.com/">
+  <meta name="twitter:domain" content="creamsilk.con.ph/">
   
 
   
@@ -126,21 +146,7 @@ input, select { vertical-align:middle; }
   clear: both;
 }
 </style>
-<?php
 
-$base_dir  = __DIR__; // Absolute path to your installation, ex: /var/www/mywebsite
-$doc_root  = preg_replace("!${_SERVER['SCRIPT_NAME']}$!", '', $_SERVER['SCRIPT_FILENAME']); # ex: /var/www
-$base_url  = preg_replace("!^${doc_root}!", '', $base_dir); # ex: '' or '/mywebsite'
-$protocol  = empty($_SERVER['HTTPS']) ? 'http' : 'https';
-$port      = $_SERVER['SERVER_PORT'];
-$disp_port = ($protocol == 'http' && $port == 80 || $protocol == 'https' && $port == 443) ? '' : ":$port";
-$domain    = $_SERVER['SERVER_NAME'];
-$full_url  = "${protocol}://${domain}${disp_port}${base_url}"; # Ex: 'http://example.com', 'https://example.com/mywebsite', etc.
-
-//echo $domain;
-//echo $protocol;
-
-?>
 <div class="lightbox" id="fl12" style="padding: 25px;">
         <div class="lightimg">
             <?php echo "<img src='". ALBUM_DIR . '/' . $albumName . '/' . $photoName . "' width='428'/>"; ?>
@@ -149,7 +155,7 @@ $full_url  = "${protocol}://${domain}${disp_port}${base_url}"; # Ex: 'http://exa
           <div style="margin-top: 10px;">
             <div style="margin-bottom: 20px;" class="fb-share-button" data-href="<?php echo $_SERVER['QUERY_STRING']; ?>" data-layout="button_count"></div>
             
-            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/tweet_button.9b77a1cb4bd14da06dfa5e2f65422c91.en.html#_=1437943738411&amp;count=horizontal&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/%2Fweb%2Ftweet-button&amp;size=m&amp;text=I now use Cream Silk after every shampoo #CreamSilkHairDare" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 97px; height: 20px;"></iframe>
+            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/tweet_button.9b77a1cb4bd14da06dfa5e2f65422c91.en.html#_=1437943738411&amp;count=horizontal&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/%2Fweb%2Ftweet-button&amp;size=m&amp;text=The %23CreamSilkHairDare challenge makes me feel %23BeyondBeautiful because _____" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 97px; height: 20px;"></iframe>
        </div>
           </div>
            <div class="clearfix"></div>

@@ -307,10 +307,8 @@ font-size: 14px !important;
 }
 
 .main{
-	position: relative;
-	top: 0;
-	left: 0;
-	/*background: #0F0;*/
+	text-align: center;
+	padding: 0 150px;
 }
  .clearfix{
  	clear: both;
@@ -581,26 +579,26 @@ a.twitter{
 
 .box{
   
-  width: 99%;
+  width: 100%;
   height: 30px;
 }
 
 .container-1{
-  width: 99%;
+  width: 100%;
   vertical-align: middle;
   white-space: nowrap;
   position: relative;
 }
 
 .container-1 input#search{
-  width: 99%;
+  width: 100%;
   height: 30px;
   background: #DDD;
   border: none;
   font-size: 10pt;
   float: left;
   color: #63717f;
-  padding-left: 45px;
+  padding-left: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -625,7 +623,8 @@ a.twitter{
 .container-1 .icon{
   position: absolute;
   top: 50%;
-  margin-left: 17px;
+  right: 0;
+  margin-right: 15px;
   margin-top: 8px;
   z-index: 1;
   color: #4f5b66;
@@ -637,14 +636,14 @@ a.twitter{
   }
 
   .container-1 input#search{
-  width: 99%;
+  width: 100%;
   height: 32px;
    background: #FFF;
   border: none;
   font-size: 10pt;
   float: left;
   color: #262626;
-  padding-left: 45px;
+  padding-left: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 15px;
