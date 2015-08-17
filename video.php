@@ -19,8 +19,6 @@
                 Share the video below on Twitter with the caption “I Want Nadine to bring
                 the #CreamSilkHairDare along with a hashtag of your school’s name.<br>
                 Full Mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechvideo">Here</a></p>
-                <!--<p>Get a chance to try the Cream Silk Hair Dare for free with Nadine Lustre by rallying <br/>your friends and schoolmates to share the video below. Share it on Twitter with the caption <br/>“I Want Nadine to bring the #CreamSilkHairDare” along with a hashtag of your school’s name. </p>-->
-                <!-- <button data-attr="fl_sharevideo">Share Video</button> -->
                 <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine Lustre to bring %23CreamSilkHairDare to %23<Insert Your School Name> https://youtu.be/Wb8ePxP-0vk">Share Video</a>
 
 
