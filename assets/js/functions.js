@@ -14,6 +14,8 @@ function init(){
       }
 
        if(pageid == 'entries'){
+         setupGallery('.twitter_wrap');
+         $('.tweet').append('<script type="text/javascript" src="assets/js/list.js"></script>');
           // $('.twitter_wrap').hide();
           // $('.tweet').twittie({
           //   dateFormat: '%b. %d, %Y',

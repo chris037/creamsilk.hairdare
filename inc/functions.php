@@ -21,7 +21,7 @@ function getPhotos($album){
 	$handle = opendir(dirname(realpath(__FILE__)) . "/../" . ALBUM_DIR . "/" .$album);
 		 while($file = readdir($handle)){
                  if($file !== '.' && $file !== '..' && $file !== '.DS_Store'){
-                 	echo "<li data-album='" . $album . "' data-photo='" . $file . "' ><div class='imgLiquidFill imgLiquid' style='width:200px; height:240px;'><img src='". ALBUM_DIR . $album . "/". $file ."' /></div></li>";
+                 	echo "<li data-album='" . $album . "' data-photo='" . $file . "' ><div class='imgLiquidFill imgLiquid' style='width:200px; height:240px;'><img src='hairdare/". ALBUM_DIR . $album . "/". $file ."' /></div></li>";
                  }
          }
 		
