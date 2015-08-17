@@ -225,7 +225,7 @@ font-size: 14px !important;
 
 	}
 
-	.page_video h2{
+	.page_video h2, .page_entries h2{
 		font-size: 30px;
 		margin-bottom: 0px;
 	}
@@ -308,7 +308,7 @@ font-size: 14px !important;
 
 .main{
 	text-align: center;
-	padding: 0 150px;
+	padding: 0 100px;
 }
 
 .home .main{

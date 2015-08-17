@@ -82,7 +82,7 @@
 		<p style="">
 			a) Cream Silk Hair Dare Promo Round 1</p>
 		<p style="">
-			Sharing Period: July 25 &ndash; August 25</p>
+			Sharing Period: August 15 &ndash; September 14</p>
 		<p style="">
 			Announcement of Winner Week of August 27</p>
 		<p style="">
@@ -92,7 +92,7 @@
 		<p style="">
 			b) Cream Silk Hair Dare Promo Round 2</p>
 		<p style="">
-			Sharing Period: September 3 &ndash; October 3</p>
+			Sharing Period: October 1 &ndash; October 31</p>
 		<p style="">
 			Announcement of Winner Wk of October 5</p>
 		<p style="">

@@ -151,11 +151,11 @@ input, select { vertical-align:middle; }
         <div class="lightimg">
             <?php echo "<img src='". ALBUM_DIR . '/' . $albumName . '/' . $photoName . "' width='428'/>"; ?>
           <div class="lightdiv">
-              <p  style="padding-top:100px;">Share your #CreamsilkhairDARE Photo with the prescribed caption to get a chance to be featured in candy magazine.</p> 
+              <p  style="padding-top:100px;">Share your #CreamSilkHairDare Photo with the prescribed caption to get a chance to be featured in candy magazine.</p> 
           <div style="margin-top: 10px;">
             <div style="margin-bottom: 20px;" class="fb-share-button" data-href="<?php echo $_SERVER['QUERY_STRING']; ?>" data-layout="button_count"></div>
             
-            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/tweet_button.9b77a1cb4bd14da06dfa5e2f65422c91.en.html#_=1437943738411&amp;count=horizontal&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/%2Fweb%2Ftweet-button&amp;size=m&amp;text=The %23CreamSilkHairDare challenge makes me feel %23BeyondBeautiful because _____" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 97px; height: 20px;"></iframe>
+            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/tweet_button.9b77a1cb4bd14da06dfa5e2f65422c91.en.html#_=1437943738411&amp;count=horizontal&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/%2Fweb%2Ftweet-button&amp;size=m&amp;text=The %23CreamSilkHairDare challenge makes me feel %23BeyondBeautiful because " class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 97px; height: 20px;"></iframe>
        </div>
           </div>
            <div class="clearfix"></div>

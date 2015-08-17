@@ -80,7 +80,7 @@
 
   ?>
 
-  <div data-pageid="entries" class="wrapper">
+  <div data-pageid="entries" class="page_entries wrapper">
    
       <div class="content">
          <!-- <div style="position:absolute; top: 60px;">
@@ -91,7 +91,7 @@
     </div> -->
             <div class="center row">
                   <button data-href="video.php" class="capsuleLeft">Bring Nadine To Your School</button>
-                  <button data-href="entries.php" class="capsuleRight active" >Get Featured In Candy Magazine</button>
+                  <button data-href="galleries.php" class="capsuleRight active" >Get Featured In Candy Magazine</button>
               </div>
              
           <!-- <div class="col one_third packshot">
@@ -102,11 +102,12 @@
 
 
           <div class="main">
-          
-              <div class="" style="padding-left: 20px;"><img src="assets/images/03_entries_header.png"></div> 
-              <p class="center" style="margin: 5px 0 10px;">If you have taken the #CreamSilkHairDare Challenge in your school, share your own  #CreamSilkHairDare photo on Facebook, Twitter and get
-  a chance to be featured on Candy magazine! Read on for Full Mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">Here</a></p>
-              <p class="center" style="margin: 5px 0 20px"> <a class="button" href="gallery.php" style="padding-left: 40px; padding-right: 40px;" >Find your photo</a></p>
+          <h2 class="center">GET FEATURED IN CANDY MAGAZINE</h2> 
+              <!-- <div class="" style="padding-left: 20px;"><img src="assets/images/03_entries_header.png"></div>  -->
+              <p class="center" style="">“If you have taken the #CreamSilkHairDare Challenge in your school, share your own #CreamSilkHairDare Challenge photo on Facebook and/or Twitter with the caption
+“The #CreamSilkHairDare challenge makes me feel #BeyondBeautiful because ” and get a chance to be featured in Candy Magazine! See full mechanics
+ <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">here</a></p>
+              <p class="center" style=""> <a class="button" href="gallery.php" style="padding-left: 40px; padding-right: 40px;" >Find your photo</a></p>
               
               
               <div id="users" class="row">

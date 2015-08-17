@@ -14,12 +14,14 @@
 
             </div>
             <div class="center row">
-                <h2 class="center"> DARE TO TAKE THE cream silk haIR Dare challenge</h2>
-                <p>Get a chance to try the Cream Silk Hair Dare for free with Nadine Lustre.
-                Share the video below on Twitter with the caption “I Want Nadine to bring
-                the #CreamSilkHairDare along with a hashtag of your school’s name.<br>
-                Full Mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechvideo">Here</a></p>
-                <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine Lustre to bring %23CreamSilkHairDare to %23<Insert Your School Name> https://youtu.be/Wb8ePxP-0vk">Share Video</a>
+                <h2 class="center"> DARE TO TAKE THE <i class="hashtag">#</i>CREAMSILKHAIRDARE CHALLENGE</h2>
+                <p>Get a chance to bring Nadine Lustre to your school and experience
+the #CreamSilkHairDare Challenge. <br/>Just click the “SHARE” button
+below to share the video on Twitter with the caption <br/>
+“I want Nadine Lustre to bring the #CreamSilkHairDare to #”
+See full mechanics here
+<a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechvideo">Here</a></p>
+                <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine Lustre to bring %23CreamSilkHairDare to %23<Insert Your School Name>">Share Video</a>
 
 
             </div>
