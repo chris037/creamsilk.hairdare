@@ -22,7 +22,7 @@
                 <article class="block_vid">
                     <h3 class="center">BRING NADINE <span>TO YOUR SCHOOL</span></h3>
                     <!-- <img class="img_left" src="assets/images/01_home_nadine.png"> -->
-                    <p>Get your friends to bring Nadine Lustreand the #CreamSilkHairDare to your school!</p>
+                    <p>Get your friends to bring Nadine Lustre and the #CreamSilkHairDare to your school!</p>
                     <div class="clearfix"></div>
                     <button data-href="video.php" style="padding: 10px 19px 8px;">Find out how</button>
                 </article>
