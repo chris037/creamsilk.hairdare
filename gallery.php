@@ -16,10 +16,16 @@
             </div>
             <div class="center row">
                 <h2 class="center">GET FEATURED IN CANDY MAGAZINE</h2> 
-                <p>If you have taken the #CreamSilkHairDare Challenge in your school, share your own #CreamSilkHairDare Challenge photo on Facebook and/or Twitter with the caption
+                <p>
+                "The #CreamSilkHairDare challenge makes me feel #BeyondBeautiful because _________."<br>
+                and get a change to be featured in Candy Magazine<br>
+                see full mechanics <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">here</a>
+
+                </p>
+               <!--  <p>If you have taken the #CreamSilkHairDare Challenge in your school, share your own #CreamSilkHairDare Challenge photo on Facebook and/or Twitter with the caption
 “The #CreamSilkHairDare challenge makes me feel #BeyondBeautiful because ” and get a chance to be featured in Candy Magazine!
 See full mechanics 
-<a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">here</a></p>
+<a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechphoto">here</a></p> -->
                 <!--<p>Share it on Twitter with the caption “I Want Nadine to bring the #CreamSilkHairDare” <br>along with a hashtag of your school’s name </p>--> 
                
                   <?php if($notinner) {?>

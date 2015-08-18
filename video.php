@@ -15,13 +15,11 @@
             </div>
             <div class="center row">
                 <h2 class="center"> DARE TO TAKE THE <i class="hashtag">#</i>CREAMSILKHAIRDARE CHALLENGE</h2>
-                <p>Get a chance to bring Nadine Lustre to your school and experience
-the #CreamSilkHairDare Challenge. <br/>Just click the “SHARE” button
-below to share the video on Twitter with the caption <br/>
-“I want Nadine Lustre to bring the #CreamSilkHairDare to #”
-See full mechanics
+                <p>Just click the “SHARE VIDEO” button below to share the video on Twitter with the caption <br>
+“I want Nadine Lustre to bring #CreamSilkHairDare to #< SchoolName >.” <br>
+See full mechanic
 <a class="" href="" style="font-weight: bold; text-decoratin: underline; color: #fff;" data-featherlight="#fl_mechvideo">here</a></p>
-                <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine Lustre to bring %23CreamSilkHairDare to %23<Insert Your School Name>">Share Video</a>
+                <a class="button twitter popup" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fhttp://www.creamsilk.com.ph/&text=I want Nadine Lustre to bring %23CreamSilkHairDare to %23<Insert Your School Name >  http://bit.ly/1hkCnj2">Share Video</a>
 
 
             </div>
